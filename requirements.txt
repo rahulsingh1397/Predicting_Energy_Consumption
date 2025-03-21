@@ -1,0 +1,13 @@
+pandas
+matplotlib
+ipykernel
+jupyter
+lightgbm
+xgboost
+Scikit-Learn
+GridSearchCV
+lightgbm
+xgboost
+statsmodels
+seaborn
+scipy
