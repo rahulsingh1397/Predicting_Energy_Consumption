@@ -1,1 +1,74 @@
+# IDE and Editor
 .qodo
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data files (large datasets)
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+!predictions_with_lags.csv
+!model_comparison_with_lags.csv
+!feature_importance_xgb.csv
+
+# Model files
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# Plots and outputs
+*.png
+*.jpg
+*.jpeg
+*.pdf
+!*.png
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
