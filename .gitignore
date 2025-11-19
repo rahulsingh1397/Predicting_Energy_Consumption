@@ -33,6 +33,12 @@ venv/
 env/
 ENV/
 .venv
+Lib/
+Scripts/
+Include/
+pyvenv.cfg
+share/
+etc/
 
 # Jupyter Notebook
 .ipynb_checkpoints
